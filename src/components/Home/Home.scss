@@ -1,0 +1,34 @@
+.home {
+  &.background {
+    background: radial-gradient(
+      ellipse at top,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(148, 187, 233, 1) 100%
+    );
+    position: absolute;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  &.title {
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 30px;
+    color: cornflowerblue;
+  }
+  &.search {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  &.weather-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
