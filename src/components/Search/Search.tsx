@@ -19,7 +19,6 @@ export default function () {
     e.preventDefault();
     dispatch<any>(setCityDetails({}, ""));
     setShowLoader(true);
-    console.log(city?.current?.value);
     const geoRes = await GeoAPI(city?.current?.value || "");
     const imgRes = await imageAPI(
       (city?.current?.value || "").replaceAll(" ", "-")
