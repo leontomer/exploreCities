@@ -8,7 +8,7 @@ export default function CityImage(props: { imgUrl: string }) {
     <div className="city-image">
       <img
         src={props.imgUrl}
-        width="520"
+        width="900"
         height="215"
         className="img-tag"
       ></img>
